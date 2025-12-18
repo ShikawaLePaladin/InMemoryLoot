@@ -1,0 +1,28 @@
+## Interface: 11200
+## Title: InMemory Loot
+## Notes: SR (Suicide Roll) and Loot Management System for InMemory Guild
+## Author: InMemory Guild
+## Version: 1.0.0
+## SavedVariables: InMemoryDB
+## OptionalDeps: Ace2, Atlas, AtlasLoot
+
+# Core Files
+Core\Constants.lua
+Core\Database.lua
+Core\Utils.lua
+
+# UI Files
+UI\MainFrame.lua
+UI\ImportTab.lua
+UI\CurrentTab.lua
+UI\HistoryTab.lua
+UI\SettingsTab.lua
+
+# Modules
+Modules\SRTracker.lua
+Modules\LootTracker.lua
+Modules\Attribution.lua
+Modules\Announce.lua
+
+# Main Entry Point
+InMemoryLoot.lua

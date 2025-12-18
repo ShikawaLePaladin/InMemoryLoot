@@ -1,0 +1,22 @@
+# WoW AddOn Files
+*.toc.bak
+*.lua.bak
+SavedVariables/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
