@@ -4,7 +4,7 @@
 [![WoW](https://img.shields.io/badge/WoW-1.12-orange.svg)](https://turtle-wow.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-**InMemory Loot** is a comprehensive Suicide Roll (SR) and loot management system for World of Warcraft Vanilla/Turtle WoW. Designed specifically for the InMemory Guild, it provides seamless integration between the guild website ([inmemory.fyi](https://inmemory.fyi)) and in-game loot distribution.
+**InMemory Loot** is a comprehensive Suicide Roll (SR) and loot management system for World of Warcraft Vanilla/Turtle WoW. Designed specifically for the InMemory Guild, it provides seamless integration between the guild website ([inmemory.cloud](https://inmemory.cloud)) and in-game loot distribution.
 
 ## ✨ Features
 
@@ -55,7 +55,7 @@ git clone https://github.com/InMemoryGuild/InMemoryLoot.git
 ## 🚀 Quick Start
 
 ### 1. Import SR Data
-1. Visit [inmemory.fyi](https://inmemory.fyi) → **Events**
+1. Visit [inmemory.cloud](https://inmemory.cloud) → **Events**
 2. Select your raid event (e.g., "Naxx Raid - Week 12")
 3. Click **Export for WoW Addon**
 4. Copy the Lua code
@@ -178,7 +178,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Credits
 
 **Developed for InMemory Guild**
-- Guild Website: [inmemory.fyi](https://inmemory.fyi)
+- Guild Website: [inmemory.cloud](https://inmemory.cloud)
 - Server: Turtle WoW
 - Inspired by: RollFor addon
 

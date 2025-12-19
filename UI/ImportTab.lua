@@ -17,7 +17,7 @@ function InMemoryLootImportTab:Create(parent)
     instructions:SetWidth(parent:GetWidth() - 40)
     instructions:SetJustifyH("LEFT")
     instructions:SetText(
-        INMEMORYLOOT_COLORS.INFO .. "1. Go to inmemory.fyi → Events → Select your raid event\n" ..
+        INMEMORYLOOT_COLORS.INFO .. "1. Go to inmemory.cloud → Events → Select your raid event\n" ..
         "2. Click 'Export for WoW Addon' to download the Lua file\n" ..
         "3. Copy and paste the Lua data below:" .. INMEMORYLOOT_COLORS.CLOSE
     )

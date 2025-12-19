@@ -24,7 +24,7 @@ cd /root/InMemoryLoot
 
 # Configurer Git (si pas déjà fait)
 git config user.name "InMemory Guild"
-git config user.email "admin@inmemory.fyi"
+git config user.email "admin@inmemory.cloud"
 
 # Ajouter le remote GitHub (remplacer YOUR_USERNAME)
 git remote add origin https://github.com/YOUR_USERNAME/InMemoryLoot.git
@@ -62,7 +62,7 @@ Ajoutez ces topics pour améliorer la découvrabilité:
 #### About Section
 ```
 🎯 SR and Loot Management for WoW Vanilla | InMemory Guild
-Website: https://inmemory.fyi
+Website: https://inmemory.cloud
 ```
 
 #### GitHub Pages (optionnel)
@@ -105,12 +105,12 @@ Questions? MP Natolie in-game ou demandez sur Discord 💬
 
 #### Message In-Game
 ```
-/guild Nouveau système SR disponible! Téléchargez l'addon InMemoryLoot sur notre GitHub. Plus d'infos sur inmemory.fyi/events
+/guild Nouveau système SR disponible! Téléchargez l'addon InMemoryLoot sur notre GitHub. Plus d'infos sur inmemory.cloud/events
 ```
 
 ### 7. Intégration Site Web
 
-Sur `inmemory.fyi`, ajoutez un lien:
+Sur `inmemory.cloud`, ajoutez un lien:
 
 ```html
 <!-- Sur la page Events -->

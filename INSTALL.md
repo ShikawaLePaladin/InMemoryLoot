@@ -3,7 +3,7 @@
 ## Prerequisites
 - World of Warcraft 1.12 client (Vanilla / Turtle WoW)
 - InMemory Guild membership
-- Access to [inmemory.fyi](https://inmemory.fyi)
+- Access to [inmemory.cloud](https://inmemory.cloud)
 
 ## Installation Steps
 
@@ -75,7 +75,7 @@ If the addon doesn't appear:
 
 ### Import Your First Event
 
-1. **On the Website** ([inmemory.fyi](https://inmemory.fyi)):
+1. **On the Website** ([inmemory.cloud](https://inmemory.cloud)):
    - Navigate to **Events**
    - Find your upcoming raid (e.g., "Naxx Week 12")
    - Click **Export for WoW Addon**
@@ -224,7 +224,7 @@ When a new version is released:
 - **In-Game**: Whisper Natolie (Guild Master)
 - **Discord**: Ask in the InMemory guild Discord
 - **GitHub**: [Open an issue](https://github.com/InMemoryGuild/InMemoryLoot/issues)
-- **Website**: Contact via inmemory.fyi
+- **Website**: Contact via inmemory.cloud
 
 ---
 
