@@ -210,9 +210,9 @@ function InMemoryLootDB:Cleanup(keepCount)
     end)
     
     -- Keep only recent events
-    for i = keepCount + 1, #sortedEvents do
+    for i = keepCount + 1, table.getn(sortedEvents) do
         InMemoryDB.events[sortedEvents[i].id] = nil
     end
     
-    DEFAULT_CHAT_FRAME:AddMessage(INMEMORYLOOT_COLORS.INFO .. "Database cleaned. Kept " .. math.min(keepCount, #sortedEvents) .. " events." .. INMEMORYLOOT_COLORS.CLOSE)
+    DEFAULT_CHAT_FRAME:AddMessage(INMEMORYLOOT_COLORS.INFO .. "Database cleaned. Kept " .. math.min(keepCount, table.getn(sortedEvents)) .. " events." .. INMEMORYLOOT_COLORS.CLOSE)
 end

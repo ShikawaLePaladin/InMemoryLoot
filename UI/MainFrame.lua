@@ -70,7 +70,7 @@ function InMemoryLootUI:Create()
     -- Create Tabs
     self.tabs = {}
     local tabNames = {"Import", "Current SR", "History", "Settings"}
-    local tabWidth = (INMEMORYLOOT_UI.WINDOW_WIDTH - 40) / #tabNames
+    local tabWidth = (INMEMORYLOOT_UI.WINDOW_WIDTH - 40) / table.getn(tabNames)
     
     for i, name in ipairs(tabNames) do
         local tab = self:CreateTab(tabContainer, name, i, tabWidth)

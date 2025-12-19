@@ -122,7 +122,7 @@ end
 function InMemoryLootCurrentTab:UpdateList()
     local srItems = InMemoryLootDB:GetAllSRItems()
     
-    if not srItems or #srItems == 0 then
+    if not srItems or table.getn(srItems) == 0 then
         -- Show "No Data" message
         for i = 1, self.scrollFrame.numRows do
             self.scrollFrame.rows[i]:Hide()
@@ -132,7 +132,7 @@ function InMemoryLootCurrentTab:UpdateList()
     
     -- Setup scroll
     local offset = FauxScrollFrame_GetOffset(self.scrollFrame)
-    local numToDisplay = #srItems
+    local numToDisplay = table.getn(srItems)
     
     FauxScrollFrame_Update(self.scrollFrame, numToDisplay, self.scrollFrame.numRows, INMEMORYLOOT_UI.ROW_HEIGHT)
     
